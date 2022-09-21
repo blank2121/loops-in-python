@@ -50,3 +50,33 @@ for letter in aToE:
 ```
 
 For these two examples, I suggest you run them as well to see their output.
+
+---
+
+### recursion loops:
+
+```
+def factorial(x):
+    if x == 1:
+        return 1
+
+    else:
+        return x * factorial(x-1)
+```
+
+In short, recursion is when a function calles itself and in this case we are calling the function
+to multiply the input by itself minus 1
+
+---
+
+I hope that this brief into to loops was help full to some and if you want to see more, check out
+the code examples in the loops folder. Have a lovely day. 
+
+:)
+
+---
+
+## Author
+
+[@blank2121](https://www.github.com/blank2121)
+
